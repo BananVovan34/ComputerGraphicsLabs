@@ -303,15 +303,15 @@ void drawOutlinedModel(const Model& model)
     glPushMatrix();
 
     glScalef(
-        1.01f,
-        1.01f,
-        1.01f
+        1.21f,
+        1.21f,
+        1.21f
     );
 
     glColor3f(
-        1.0f,
-        1.0f,
-        1.0f
+        0.0f,
+        0.0f,
+        0.0f
     );
 
     drawModel(model);
@@ -327,9 +327,9 @@ void drawOutlinedModel(const Model& model)
 
     GLfloat material[] =
     {
-        0.22f,
-        0.28f,
-        0.38f,
+        1.0f,
+        1.0f,
+        1.0f,
         1.0f
     };
 
@@ -510,9 +510,9 @@ void init()
     glShadeModel(GL_SMOOTH);
 
     glClearColor(
-        0.2f,
-        0.45f,
-        0.95f,
+        1.0f,
+        1.0f,
+        1.0f,
         1
     );
 
